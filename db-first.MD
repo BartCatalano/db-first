@@ -1,4 +1,4 @@
-id                        INT  UNSIGNED        UNIQUE NOTNULL
+id                        INT  UNSIGNED        AUTOINCRIMENT UNIQUE NOTNULL
 model                     VARCHAR(255)         NOTNULL
 disponibility             UNSIGNED INT         NOTNULL
 description               VARCHAR(255)
